@@ -1,0 +1,47 @@
+
+body {
+	background-color: black;
+}
+nav {
+	background-color: black;
+	height: 40px;
+	border-bottom: 2px solid khaki;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0px 30px 0 20px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+li {
+    float: left;
+    color: red;
+
+}
+
+li a {
+    display: block;
+    margin: 15px 20px 10px 40px;
+    text-decoration: none;
+ }
+
+nav li:hover {
+	color: blue;
+	background-color: khaki;
+	transform: scale(1.25);
+	margin: 5px;
+}
+
+
+
+
+
+
+
